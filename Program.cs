@@ -6,7 +6,7 @@ namespace LaTeX.Net {
     public static class Program {
         public static void Main(string[] args) {
             string latex = """
-                Bom dia, aqui em \textbf{Santa Maria, o \textit{coração do Rio Grande}, está 25 graus!
+                Good morning \textbf{Santa Maria, the \textit{heart of Rio Grande}, today is \textit{25ºC}!
                 """;
 
             Scanner scanner = new(latex);
