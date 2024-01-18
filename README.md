@@ -14,7 +14,7 @@ using LaTeX.Net.Parsing.Document;
 
 // the original LaTeX code
 string latex = """
-    Good morning \textbf{Santa Maria, the \textit{heart of Rio Grande}, today is \textit{25ºC}!
+    Good morning \textbf{Santa Maria, the \textit{heart of Rio Grande}}, today is \textit{25C}!
     """;
 
 // this will convert the LaTeX code into a list of tokens
