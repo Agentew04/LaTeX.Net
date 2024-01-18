@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>LaTeX.Net</Title>
+    <Authors>Rodrigo Appelt</Authors>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/Agentew04/LaTeX.Net</PackageProjectUrl>
+    <Description>A simple library to convert string LaTeX snippets to a document model.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Agentew04/LaTeX.Net</RepositoryUrl>
+    <PackageTags>latex; .net; dom; document; parsing;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

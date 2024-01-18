@@ -1,0 +1,9 @@
+document -> token+
+
+token -> TEXT | modifier | control
+
+control -> "\" CONTROL_KEY
+
+group -> "{" token* "}"
+
+modifier -> control group
